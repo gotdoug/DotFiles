@@ -20,15 +20,3 @@ fi
 if [ -f "$HOME/.bash_ps1" ]; then
     . "$HOME/.bash_ps1"
 fi
-
-# some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-alias cp='cp -i'
-alias rm='rm -i'
-alias mv='mv -i'
-alias mypath='echo $PATH | tr ":" "\n"'
-alias ftpmme='ftp ftp.massmarineeducators.org'
-alias ftpridgewood='ftp ftp.ridgewoodhillshoa.org'
-
