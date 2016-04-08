@@ -5,7 +5,6 @@ alias mypath='echo $PATH | tr ":" "\n"'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
-alias cal='cal -s' 
 
 ## Some more ls aliases
 alias ll='ls -alF'
