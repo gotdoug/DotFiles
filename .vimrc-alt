@@ -1,0 +1,14 @@
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set smarttab
+set showcmd
+set number
+set showmatch
+set hlsearch
+set incsearch
+set ruler
+set background=light
+set nowrap
+set paste
+syntax off
