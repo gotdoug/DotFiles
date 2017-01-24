@@ -8,9 +8,9 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
-# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
+## # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+## HISTSIZE=1000
+## HISTFILESIZE=2000
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
@@ -23,3 +23,8 @@ fi
 if [ -f "$HOME/.bash_ps1" ]; then
     . "$HOME/.bash_ps1"
 fi
+
+alias ls='/bin/ls --color=auto -F' 
+alias ll='/bin/ls --color=auto -Fl'
+alias la='/bin/ls --color=auto -Fla'
+alias l='/bin/ls --color=auto -Fa'
