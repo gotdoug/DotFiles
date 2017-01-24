@@ -7,9 +7,10 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
 ## Some more ls aliases
-alias ll='ls --color=auto -alF'
-alias la='ls --color=auto -AF'
-alias l='ls --color=auto -CF'
+alias ls='/bin/ls --color=auto -F' 
+alias ll='/bin/ls --color=auto -Fl'
+alias la='/bin/ls --color=auto -Fla'
+alias l='/bin/ls --color=auto -Fa'
 
 ## Local virtual machines
 alias build32='gnome-terminal --tab-with-profile "localvms" --geometry=132x30+0+530 -e "ssh dougc@build32.vm"'
