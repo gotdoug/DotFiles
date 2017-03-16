@@ -6,6 +6,15 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
+# Default to human readable figures
+alias df='df -h'
+alias du='du -h'
+
+# Grep aliases
+alias grep='grep --color'                     # show differences in color
+alias egrep='egrep --color=auto'              # show differences in color
+alias fgrep='fgrep --color=auto'              # show differences in color
+
 ## Some more ls aliases
 alias ls='/bin/ls --color=auto -F' 
 alias ll='/bin/ls --color=auto -Fl'
