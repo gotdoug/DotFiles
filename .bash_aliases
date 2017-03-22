@@ -2,9 +2,6 @@ alias cp='cp -i'
 alias rm='rm -i'
 alias mv='mv -i'
 alias mypath='echo $PATH | tr ":" "\n"'
-alias grep='grep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
 
 # Default to human readable figures
 alias df='df -h'
@@ -21,7 +18,7 @@ alias ll='/bin/ls --color=auto -Fl'
 alias la='/bin/ls --color=auto -Fla'
 alias l='/bin/ls --color=auto -Fa'
 
-## Local virtual machines
+## Launch a terminal and log into local virtual machines
 alias build32='gnome-terminal --tab-with-profile "localvms" --geometry=132x30+0+530 -e "ssh dougc@build32.vm"'
 alias build64='gnome-terminal --tab-with-profile "localvms" --geometry=132x30+0+530 -e "ssh dougc@build64.vm"'
 
