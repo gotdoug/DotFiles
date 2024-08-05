@@ -13,3 +13,7 @@ set paste
 syntax off
 set modeline
 set background=light
+
+if &diff
+    colorscheme diffcolorscheme
+endif
