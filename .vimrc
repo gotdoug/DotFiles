@@ -40,10 +40,10 @@ set nowrap               " set lines to not wrap. use set wrap to wrap lines.
 set modeline             " When a file is first opened, read the modeline from the
                          " the file, if there is one present
 
-if &diff                          ## Adding line to set custom color scheme
-    colorscheme diffcolorscheme   ## when using vimdiff
-endif                             ## Place color scheme file in 
-                                  ## ~/.vim/colors/diffcolorscheme.vim
+if &diff                          " Adding line to set custom color scheme
+    colorscheme diffcolorscheme   " when using vimdiff
+endif                             " Place color scheme file in 
+                                  " ~/.vim/colors/diffcolorscheme.vim
 
 " syntax off               " set syntax to off to remove code highlighting
 
